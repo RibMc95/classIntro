@@ -12,4 +12,4 @@ services:
     tty: true
     command: npm start
 
-    # This is a comment line in the compose file
+    

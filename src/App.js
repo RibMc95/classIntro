@@ -10,4 +10,3 @@ function App() {
 
 export default App;
 
-// this is a test comment for the screenshot
