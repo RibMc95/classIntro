@@ -1,8 +1,36 @@
+:root {
+  --color-bg: #efe6d6;
+  --color-surface: #e1d6c4;
+  --color-text: #3e3a33;
+  --color-muted: #6a6258;
+  --color-accent: #7b8f6a;
+  --color-accent-strong: #5e7350;
+  --color-link: #6b7f63;
+  --color-link-hover: #556a4f;
+}
+
 body {
   margin: 100px;
   font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+  background: radial-gradient(circle at 20% 10%, #f7efe1 0%, #efe6d6 60%, #e6dac7 100%);
+  color: var(--color-text);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: var(--color-link);
+  text-decoration-color: #b8c2ad;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: var(--color-link-hover);
+}
+
+::selection {
+  background: #c9d4bf;
+  color: #2e2a24;
 }
 
 code {
